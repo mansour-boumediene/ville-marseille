@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+h2{
+    font-size: 4.8rem; 
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4,h5{
+    font-size: 2.8rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.head1{
+    background: rgb(118, 118, 247);
+    color: white;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+    animation: titre 5s infinite alternate  ;
+}
+
+@keyframes titre {
+    100%{
+        translate: 250px;
+    }
+}
+
+
+.s1{
+    min-height: 90vh;
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/florian-wehde-xW9e8gdotxI-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1 h2{
+    transition: 2s;
+    padding: 3rem;
+}   
+  
+.s1 h2:hover{
+    scale: 2;
+    cursor: pointer;
+}
+
+button{
+    padding: 2rem 5rem;
+    background:rgb(118, 118, 247) ;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
+
+
+.s2{
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/erin-o-brien-1TTvvTxuXLw-unsplash.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid white;
+}
+
+.s2 h3{
+    padding: 3rem;
+    transition: 2s;
+}
+
+.s2 h3:hover{
+    scale: 2;
+}
+
+.s3{
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/abhay-thakur-y-G2v9iO1U4-unsplash.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid white;
+}
+
+.s3 h4{
+    padding: 3rem;
+    transition: 2s;
+}
+
+.s3 h4:hover{
+    scale: 2;
+}
+
+.s4{
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/jarddinbotanique.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid white;
+}
+
+.s4 h5{
+    padding: 3rem;
+    transition: 2s;
+}
+
+.s4 h5:hover{
+    scale: 2;
+}
+  

@@ -37,11 +37,12 @@ a{
 body{
     font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
+    background: #87CEFA;
 }
 
 
 .head1{
-    background: rgb(118, 118, 247);
+    background: #87CEFA;
     color: white;
 }
 
@@ -172,4 +173,53 @@ button{
 .s4 h5:hover{
     scale: 2;
 }
-  
+
+.images {
+    display: flex;
+    height: 100vh;
+    animation-duration: 20s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+    
+
+}
+
+#carousel{
+    width:70%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    
+}
+
+@keyframes mesimages {
+    0%{
+        transform: translateX(0);
+    }
+
+    16%{
+        transform: translateX(-100vh);
+    }
+
+    32%{
+        transform: translateX(-200vh);
+    }
+
+    50%{
+        transform: translateX(-300vh);
+    }
+
+    66%{
+        transform: translateX(-400vh);
+    }
+
+    82%{
+        transform: translateX(-500vh);
+    }
+
+
+
+    
+
+}

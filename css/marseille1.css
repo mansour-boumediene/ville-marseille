@@ -1,0 +1,72 @@
+
+body{
+    background-image: url(/ville-marseille/contact.jpeg);
+}
+
+.sectionContact{
+    background-color: antiquewhite;
+    width: 30%;
+    margin-left: 40%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 100px ;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h2 {
+
+    animation-name: h2Slide;
+    animation-duration: 2s;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    margin-left: 145px;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: x-large;
+
+}
+
+@keyframes h2Slide {
+    from{
+        margin-right: 0%;
+    }
+    
+    to{
+        margin-right: 50%;
+    }
+}
+
+.head1{
+    background: #87CEFA;
+    color: white;
+}
+
+li{
+    font-size: 2rem;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+    animation: titre 5s infinite alternate  ;
+}

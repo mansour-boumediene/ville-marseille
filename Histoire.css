@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    background: #87CEFA;
+}
+
+
+.head1{
+    background: #87CEFA;
+    color: white;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+}
+
+.cartes1{
+
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.cartes{
+    width: 300px;
+    height: 379px;
+    background: black;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px black;
+    margin-bottom: 100px;
+    transition: all .8s;
+    text-transform: uppercase;
+    
+    
+}
+
+.border{
+    height: 369px;
+    width: 290px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid transparent;
+}
+
+
+.carte0{
+    background: url(/images/Zinedine-Zidane-nouveau-visage-Mango.jpg) right center no-repeat;
+    background-size: 600px;
+
+}
+
+.carte0:hover{
+    background: url(/images/Zinedine-Zidane-nouveau-visage-Mango.jpg) center center no-repeat;
+    background-size: 800px;
+}
+
+
+.cartes h2 {
+    margin:20px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.cartes:hover h2 {
+    opacity: 1;
+}
+
+
+.carte1{
+    background: url(/images/Gaston_Defferre_1964.jpg) center center no-repeat;
+    background-size: 400px;
+
+}
+
+.carte1:hover{
+    background: url(/images/Gaston_Defferre_1964.jpg) right center no-repeat;
+    background-size: 500px;
+}
+
+
+.carte2{
+    background: url(/images/000999972_896x598_c.jpg) left center no-repeat;
+    background-size: 600px;
+
+}
+
+.carte2:hover{
+    background: url(/images/000999972_896x598_c.jpg) left center no-repeat;
+    background-size: 800px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

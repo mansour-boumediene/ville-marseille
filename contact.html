@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/marseille1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital@1&display=swap" rel="stylesheet">
     <title>contact</title>
 </head>
+
+
+<body>
+
 
 <header class="head1">
     <nav>
         <h1 id="Titre">Marseille</h1>
         <ul>
-            <li><a href="#">Randonnées</a></li>
-            <li><a href="#">Activité</a></li>
-            <li><a href="#">Histoire</a></li>
-            
+            <li><a class="Ahistoire" href="Histoire.html">Histoire</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Activités</a>
+                <div class="dropdown-content">
+                    <a href="#">Plages</a><br>
+                    <a href="#">Parcs Publics</a>
+                    <a href="#">Musées</a>
+                    <a href="plagerando.html">Randonnées</a>
+                </div>
+            </li>
+            <li><a class="Acontact" href="#">Contact</a></li>
         </ul>
     </nav>
 </header>
-
-<body>
 
 
     <h2>Nous contacter</h2>
@@ -47,13 +57,13 @@
                 </ul>
 
                 <ul>
-                    <label for="">briéve déscription de votre demande</label>
+                    <label for="">Briéve déscription de votre demande</label>
                     <input class="inputMessage" type="text">
                 </ul>
             
             <ul>
                 <label for="">soumettre</label>
-                <input type="submit" value=""> 
+                <input class="submmit" type="submit" value=""> 
             </ul>
 
     </form>

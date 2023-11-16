@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head1{
+    background-color: #87CEFA;
+    color: white;
+}
+
+li{
+    font-size: 2rem;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    
+    margin-right: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size:x-large;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+    animation: titre 5s infinite alternate  ;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    font-size: x-large;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Acontact{
+    color: white;
+}
+
+.Ahistoire{
+    color: white;
+}
+
+
+header{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    background: #87CEFA;
+}
+
+img {
+
+    height: 500px;
+    width: 700px;
+}
+
+.superSectionMusee{
+
+   
+    margin-left: 25%;
+    margin-right: 25%;
+
+    width: auto;
+}
+
+
+ h2{
+    margin-top: 100px;
+    text-align: end;
+    padding-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+article{
+
+    padding-top: 10px;
+    text-align: center;
+    padding: 10px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.bodyMucem{
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/ville-marseille/MARSEILLE_MuCEM-Lisa-Ricciotti_slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.bodyMucem article {
+width: 40%;
+margin-top: 10%;
+color: azure;
+font-size: x-large;
+}
+
+.slider{
+   
+    background-image:  url(/ville-marseille/MucemA3.webp);
+
+    height: 600px;
+    animation: slide 40s infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes slide{
+    20%{
+        background-image:  url(/ville-marseille/MucemA4.jpg);
+    }
+    40%{
+        background-image: url(/ville-marseille/MucemA6.jpg);
+    }
+    60%{
+        background-image: url(/ville-marseille/MucemA8.jpg);
+    }
+    80%{ 
+        background-image: url(/ville-marseille/MucemA2.jpg);
+    }
+
+    100%{
+        background-image: url(/ville-marseille/Mucem10.jpg);
+    }
+
+   
+}
+
+.sectionMucemDefile{
+
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.separate p{
+    color: azure;
+    font-size: x-large;
+
+}
+
+.separate iframe {
+    height: 300px;
+}

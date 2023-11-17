@@ -1,0 +1,276 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    background: #87CEFA;
+    color: white;
+    margin-top: 0;
+}
+
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+.cartes1{
+
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.cartes{
+    width: 300px;
+    height: 379px;
+    background: black;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 70px 63px -60px black;
+    margin-bottom: 100px;
+    transition: all .8s;
+    text-transform: uppercase;
+    
+    
+}
+
+.border{
+    height: 369px;
+    width: 290px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid transparent;
+}
+
+
+.carte0{
+    background: url(images/Zinedine-Zidane-nouveau-visage-Mango.jpg) right center no-repeat;
+    background-size: 600px;
+
+}
+
+.carte0:hover{
+    background: url(images/Zinedine-Zidane-nouveau-visage-Mango.jpg) center center no-repeat;
+    background-size: 800px;
+}
+
+
+.cartes h2 {
+    margin:20px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.cartes:hover h2 {
+    opacity: 1;
+}
+
+
+.carte1{
+    background: url(images/Gaston_Defferre_1964.jpg) center center no-repeat;
+    background-size: 400px;
+
+}
+
+.carte1:hover{
+    background: url(images/Gaston_Defferre_1964.jpg) right center no-repeat;
+    background-size: 500px;
+}
+
+
+.carte2{
+    background: url(images/000999972_896x598_c.jpg) left center no-repeat;
+    background-size: 600px;
+
+}
+
+.carte2:hover{
+    background: url(images/000999972_896x598_c.jpg) left center no-repeat;
+    background-size: 800px;
+}
+
+
+.carte3{
+    background: url(images/jules-cesar-noir-tapis-de-souris.jpg) right center no-repeat;
+    background-size: 500px;
+
+}
+
+.carte3:hover{
+    background: url(images/jules-cesar-noir-tapis-de-souris.jpg) center center no-repeat;
+    background-size: 550px;
+}
+
+
+.carte4{
+    background: url(images/biographie-de-marcel-pagnol-cm2.jpg) center center no-repeat;
+    background-size: 500px;
+
+}
+
+.carte4:hover{
+    background: url(images/biographie-de-marcel-pagnol-cm2.jpg) left center no-repeat;
+    background-size: 550px;
+}
+
+
+.carte5{
+    background: url(images/260px-Karl_von_Anjou.jpg) top center no-repeat;
+    background-size: 300px;
+
+}
+
+.carte5:hover{
+    background: url(images/260px-Karl_von_Anjou.jpg) top center no-repeat;
+    background-size: 400px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 4;
+} 
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.timeline-object {
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    position: relative;
+  }
+
+
+  .timeline-object.complete::after {
+    content: '';
+    display: block;
+    position: absolute;
+    
+    width: 4px;
+    height: 600px;
+    background-color: #87CEFA;
+    
+    left: 23px;
+    top: 50px;
+    transform: translateX(-50%);
+  }
+
+
+
+
+  
+  .timeline-content {
+    margin-left: 35px;
+  }
+  
+  .timeline-content h3 {
+    color: white;
+    background: #87CEFA;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: x-large;
+  }
+  
+  .timeline-content span {
+    color: #103B27;
+    font-size:x-large;
+    font-weight: bold;
+  }
+
+
+
+
+  img{
+    height: 50vh;
+    display: flex;
+    float: right;
+    margin-left: 600px;
+  }
+
+p{
+    font-size: x-large;
+    margin-left: 50px;
+}

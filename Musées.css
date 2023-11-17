@@ -466,3 +466,18 @@ font-size: x-large;
             .principaleBodymusee{
                 background-color: whitesmoke;
             }
+
+            .pRetour{
+                color: #87CEFA;
+                font-size: x-large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                margin-top: 20px;
+                margin-left: 30px;
+            }
+
+            a {
+                
+                color: #87CEFA;
+            }
+            

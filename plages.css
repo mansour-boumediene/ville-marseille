@@ -1,0 +1,340 @@
+*{
+  
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+header{
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+    background: #87CEFA;
+}
+
+
+.head1{
+    background: #87CEFA;
+    color: white;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#Titre{
+    flex: 1 1 40rem;
+    font-size: 2.6rem;
+    margin-left: 20px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    font-size: x-large;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: x-large;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+.intro {
+    margin-top: 80px;
+    background-color: aqua;
+    border: double 7px black;
+    width: 30%;
+    border-radius: 10px 50px 50px 10px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+
+h1 {
+     text-align: center;
+     text-shadow: 3px 3px aqua;
+     font-family: cursive;
+    }
+
+h1 {
+   animation: moveRight 5s linear infinite 
+}    
+    
+@keyframes moveRight {
+        0% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(calc(100% - 100vw));
+        }
+        100% {
+            transform: translateX(0);
+        }
+}
+
+body {
+    background-image:url(images/plage1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+
+
+.intro2 { 
+    background-color: aqua;
+    border: double 7px black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 50px 10px 10px 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.prado4 {
+    display: flex;
+flex-direction: row;
+width: 250px;
+}
+
+.prado5 {
+     width: 350px;
+border:solid 3px black;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 50px 0 0 50px;
+}
+
+ .prado5:hover {
+    transform: rotate(5deg);
+scale: 1.1;}
+
+
+
+.prado1{
+     background-color: white;
+width: 200px; border: solid 3px aqua;
+border-radius: 0 20px 20px 0;
+margin-top: 60px;
+font-weight: bold;
+padding: 10px
+}
+
+.prado3{
+    background-color: white;
+    border: solid 3px black;
+border-radius: 0 20px 20px 0;
+padding: 10px
+}
+
+.catalan2 {
+    display: flex;
+flex-direction: row 
+}
+
+.catalan3 { 
+    width: 350px;
+border: solid 3px black;
+margin-right: 15px;
+margin-left: 15px;
+border-radius: 0 50px 50px 0;
+height: 250px;
+}
+
+.catalan3:hover {
+    scale: 1.1;
+    transform: rotate(-5deg)
+}
+
+.catalan {
+    background-color: white;
+width: 200px;
+border: solid 3px aqua;
+margin-top: 50px;
+border-radius: 0 20px 20px 0;
+font-weight: bold;
+padding: 10px
+}
+
+.catalan1 {
+    background-color: white;
+border: solid 3px black;
+border-radius: 0 20px 20px 0;
+padding: 10px
+}
+
+.prophete2 {
+    display: flex;
+flex-direction: row
+}
+
+.prophete3 {
+    width: 350px;
+    border: solid 3px black;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px 0 0 50px;
+}
+
+.prophete {
+    background-color: white;
+width: 200px;
+border: solid 3px aqua;
+margin-top: 50px;
+border-radius: 0 20px 20px 0;
+font-weight: bold;
+padding: 10px
+}    
+
+.prophete1 {
+    background-color: white;
+border: solid 3px black;
+border-radius: 0 20px 20px 0;
+padding: 10px
+}
+
+.prophete3:hover {
+    scale: 1.1;
+    transform: rotate(5deg)
+}
+
+.rouge2 {
+    display: flex;
+    flex-direction: row
+}
+    
+.rouge3 {
+    width: 350px;
+        border: solid 3px black;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 50px 0 0 50px;
+}
+
+.rouge {
+    background-color: white;
+    width: 200px;
+    border: solid 3px aqua;
+    margin-top: 50px;
+    border-radius: 0 20px 20px 0;
+    font-weight: bold;
+    padding: 10px
+}    
+
+.rouge1 {
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 0 20px 20px 0;
+    padding: 10px
+}
+
+.rouge3:hover {
+    scale: 1.1;
+        transform: rotate(5deg)
+}
+
+.estaque2 {
+    display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+}
+        
+.estaque3 {
+    width: 350px;
+            border: solid 3px black;
+            margin-right: 20px;
+            margin-left: 20px;
+            border-radius: 0 50px 50px 0
+}
+
+.estaque {
+    background-color: white;
+        width: 200px;
+        border: solid 2px aqua;
+        margin-top: 50px;
+        border-radius: 0 20px 20px 0;
+        font-weight: bold;
+        padding: 10px
+}    
+
+.estaque1 {
+    background-color: white;
+        border: solid 3px black;
+        border-radius: 0 20px 20px 0;
+        padding: 10px
+}
+
+.estaque3:hover {
+    scale: 1.1;
+            transform: rotate(-5deg)
+}
+
+
+
+
+

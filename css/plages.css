@@ -136,7 +136,7 @@ h1 {
 }
 
 body {
-    background-image:url(images/plage1.avif);
+    background-image:url(/images/plage1.avif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;

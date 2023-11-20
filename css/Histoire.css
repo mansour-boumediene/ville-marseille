@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -24,6 +24,7 @@ header{
     text-transform: uppercase;
     background: #87CEFA;
     color: white;
+    margin-top: 0;
 }
 
 

@@ -66,7 +66,7 @@ nav ul{
 
 .s1{
     min-height: 90vh;
-    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(images/florian-wehde-xW9e8gdotxI-unsplash\ \(1\).jpg);
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/florian-wehde-xW9e8gdotxI-unsplash\ \(1\).jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -97,7 +97,7 @@ button{
 
 
 .s2{
-    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(images/erin-o-brien-1TTvvTxuXLw-unsplash.jpg);
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/erin-o-brien-1TTvvTxuXLw-unsplash.jpg);
     min-height: 50vh;
     background-size: cover;
     background-position: center;
@@ -120,7 +120,7 @@ button{
 }
 
 .s3{
-    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(images/abhay-thakur-y-G2v9iO1U4-unsplash.jpg);
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/abhay-thakur-y-G2v9iO1U4-unsplash.jpg);
     min-height: 70vh;
     background-size: cover;
     background-position: center;
@@ -143,7 +143,7 @@ button{
 }
 
 .s4{
-    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(images/jarddinbotanique.jpg);
+    background:linear-gradient(rgb(0,0,0, 0.6), transparent), url(/images/jarddinbotanique.jpg);
     min-height: 70vh;
     background-size: cover;
     background-position: center;

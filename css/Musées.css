@@ -145,7 +145,7 @@ font-size: x-large;
 
 .slider{
    
-    background-image:  url(/ville-marseille/MucemA3.webp);
+    background-image:  url(/images/MucemA3.webp);
 
     height: 600px;
     animation: slide 40s infinite;
@@ -157,20 +157,20 @@ font-size: x-large;
 @keyframes slide{
 
     20%{
-        background-image:  url(/ville-marseille/MucemA4.jpg);
+        background-image:  url(/images/MucemA4.jpg);
     }
     40%{
-        background-image: url(/ville-marseille/MucemA6.jpg);
+        background-image: url(/images/MucemA6.jpg);
     }
     60%{
-        background-image: url(/ville-marseille/MucemA8.jpg);
+        background-image: url(/images/MucemA8.jpg);
     }
     80%{ 
-        background-image: url(/ville-marseille/MucemA2.jpg);
+        background-image: url(/images/MucemA2.jpg);
     }
 
     100%{
-        background-image: url(/ville-marseille/Mucem10.jpg);
+        background-image: url(/images/Mucem10.jpg);
     }
 
    
@@ -201,7 +201,7 @@ font-size: x-large;
 }
 
 .viellecharite{
-    background-image: linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/ville-marseille/vielleCharité.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/images/vielleCharité.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -211,7 +211,7 @@ font-size: x-large;
 
 .slider2{
    
-    background-image:  url(/ville-marseille/vielle12.webp);
+    background-image:  url(/images/vielle12.webp);
 
     height: 600px;
     animation: slide2 40s infinite;
@@ -223,20 +223,20 @@ font-size: x-large;
 @keyframes slide2{
 
     20%{
-        background-image:  url(/ville-marseille/vielle-5.jpg);
+        background-image:  url(/images/vielle-5.jpg);
     }
     40%{
-        background-image: url(/ville-marseille/vielle-3.webp);
+        background-image: url(/images/vielle-3.webp);
     }
     60%{
-        background-image: url(/ville-marseille/vielle9.jpg);
+        background-image: url(/images/vielle9.jpg);
     }
     80%{ 
-        background-image: url(/ville-marseille/vielle10.jpg);
+        background-image: url(/images/vielle10.jpg);
     }
 
     100%{
-        background-image: url(/ville-marseille/vielle11.jpg);
+        background-image: url(/images/vielle11.jpg);
     }
 
 }
@@ -265,7 +265,7 @@ font-size: x-large;
 
 .Beauxart{
 
-    background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/ville-marseille/beauxart1.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/images/beauxart1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +282,7 @@ font-size: x-large;
 
     .slider3{
    
-        background-image:  url(/ville-marseille/beauxart2.jpg);
+        background-image:  url(/images/beauxart2.jpg);
     
         height: 600px;
         animation: slide3 40s infinite;
@@ -294,20 +294,20 @@ font-size: x-large;
     @keyframes slide3{
 
         20%{
-            background-image:  url(/ville-marseille/beauxart3.jpg);
+            background-image:  url(/images/beauxart3.jpg);
         }
         40%{
-            background-image: url(/ville-marseille/beauxart4.jpg);
+            background-image: url(/images/beauxart4.jpg);
         }
         60%{
-            background-image: url(/ville-marseille/beauart5.webp);
+            background-image: url(/images/beauart5.webp);
         }
         80%{ 
             background-image: url(/ville-marseille/beauat5.jpg);
         }
     
         100%{
-            background-image: url(/ville-marseille/beauart6.jpg);
+            background-image: url(/images/beauart6.jpg);
         }
     
     }
@@ -332,7 +332,7 @@ font-size: x-large;
 
     .histoiremarseille{
 
-        background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/ville-marseille/hm0.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/images/hm0.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,7 +349,7 @@ font-size: x-large;
 
         .slider4{
    
-            background-image:  url(/ville-marseille/hm2.JPG);
+            background-image:  url(/images/hm2.JPG);
         
             height: 600px;
             animation: slide4 40s infinite;
@@ -361,20 +361,20 @@ font-size: x-large;
         @keyframes slide4{
 
             20%{
-                background-image:  url(/ville-marseille/hm3.jpg);
+                background-image:  url(/images/hm3.jpg);
             }
             40%{
-                background-image: url(/ville-marseille/hm5.jpg);
+                background-image: url(/images/hm5.jpg);
             }
             60%{
-                background-image: url(/ville-marseille/hm6.jpg);
+                background-image: url(/images/hm6.jpg);
             }
             80%{ 
-                background-image: url(/ville-marseille/hm4.jpg)
+                background-image: url(/images/hm4.jpg)
             }
         
             100%{
-                background-image: url(/ville-marseille/hm1.jpg);
+                background-image: url(/images/hm1.jpg);
             }
         
         }
@@ -399,7 +399,7 @@ font-size: x-large;
     
         .savonmarseille{
 
-            background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/ville-marseille/sdm9.jpg);
+            background-image:linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0 , 0.6)), url(/images/sdm9.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -415,7 +415,7 @@ font-size: x-large;
 
             .slider5{
    
-                background-image:  url(/ville-marseille/sdm0.jpg);
+                background-image:  url(/images/sdm0.jpg);
             
                 height: 600px;
                 animation: slide5 40s infinite;
@@ -427,20 +427,20 @@ font-size: x-large;
             @keyframes slide5{
 
                 20%{
-                    background-image:  url(/ville-marseille/sdm1.jpg);
+                    background-image:  url(/images/sdm1.jpg);
                 }
                 40%{
-                    background-image: url(/ville-marseille/sdm2.jpg);
+                    background-image: url(/images/sdm2.jpg);
                 }
                 60%{
-                    background-image: url(/ville-marseille/sdm3.jpg);
+                    background-image: url(/images/sdm3.jpg);
                 }
                 80%{ 
-                    background-image: url(/ville-marseille/sdm4.jpg)
+                    background-image: url(/images/sdm4.jpg)
                 }
             
                 100%{
-                    background-image: url(/ville-marseille/sdm5.jpg);
+                    background-image: url(/images/sdm5.jpg);
                 }
             
             }
